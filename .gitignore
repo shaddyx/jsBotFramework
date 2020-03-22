@@ -1,0 +1,9 @@
+#=========ADDED_AUTOMATICALLY=============
+.idea
+.eclipse
+.config
+.settings
+node_modules
+yarn.lock
+log/
+#dist

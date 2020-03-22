@@ -1,0 +1,25 @@
+{
+  "name": "jsbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.7.4",
+    "@types/node-telegram-bot-api": "^0.40.2",
+    "@types/pino": "^5.15.5",
+    "jsasserts": "git+ssh://git@github.com/shaddyx/ts_asserts.git",
+    "log4js": "^6.1.2",
+    "node-telegram-bot-api": "^0.40.0"
+  },
+  "devDependencies": {
+    "source-map-support": "^0.5.16"
+  }
+}
