@@ -366,7 +366,7 @@
         "signature": "7100dfbca99a962088ca42944011d14d5c5eb0860cb86024a067e78c306f6ce2"
       },
       "./src/test/config.ts": {
-        "version": "0209fa9057a06b7a41cad8ec40f837eea2cf67e14f049fff2f2c569cb92bc5bc",
+        "version": "3da023344bd7cd8012aefc552e6a4d65d5123102e1ce8baae8daf38c4670ef41",
         "signature": "919385d210f9d44d3c2c7331a1ff37e13c9db0195ed252f3ee70e8420b84a887"
       },
       "./src/test/main.ts": {
@@ -1862,14 +1862,14 @@
       "./node_modules/@types/request/index.d.ts",
       "./node_modules/@types/node-telegram-bot-api/index.d.ts",
       "./node_modules/jsasserts/lib/Asserts.d.ts",
+      "./src/botFramework/impl/telegram.ts",
       "./src/botFramework/impl/index.ts",
       "./src/botFramework/index.ts",
-      "./src/test/config.ts",
       "./src/test/main.ts",
       "./src/test/index.ts",
       "./src/index.ts",
       "./types/fs.d.ts",
-      "./src/botFramework/impl/telegram.ts"
+      "./src/test/config.ts"
     ]
   },
   "version": "3.8.0-beta"
