@@ -10,6 +10,7 @@ export interface OutboundMessage {
     to: string | number;
     image?: Buffer | OutboundFile;
     keyboard?: Button[];
+    markdownMode?: string;
 }
 export interface OutboundFile {
     data: Buffer;

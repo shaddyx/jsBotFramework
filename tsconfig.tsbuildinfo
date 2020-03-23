@@ -130,8 +130,8 @@
         "signature": "1377923021927244ea19433873b997ad8585533b0a56d5de29cda497f7842756"
       },
       "./src/botFramework/types.ts": {
-        "version": "405c7bef380e0cb831487f913c40e2111b650d8f95ced2a7572b3c013dca0d68",
-        "signature": "2ecb23b3e47dc6735b56b19b689e0020184a9d1cbebdeadfed9aaabed05d5a5f"
+        "version": "eabf3c5e4cdc0b77df2d5292d47d000286122b34d78110d2b2ca8d9669068a98",
+        "signature": "c3643edb5e90248970aa1e2fb9ae8180f9dc1634f474216f2f6f296323ed5641"
       },
       "./node_modules/log4js/types/log4js.d.ts": {
         "version": "88633f1e6bc0977b84c1fa07a72f72bb23d27c03735b43c8c535b81fe35fa7c8",
@@ -354,7 +354,7 @@
         "signature": "6fd0db2a157a07f65ee91cab61709f0d372d0f8af6c88777406a9e7669900f1d"
       },
       "./src/botFramework/impl/telegram.ts": {
-        "version": "0318ae2fd17f8346c2d23afd0344d9ccaeb5c9d775fb3e5dd57c0857b3499da7",
+        "version": "afe0229d441edcaf627db0ff9f1fa0717204782907413671558bea7a52a602a9",
         "signature": "90fe8fc079b01350233f32cd628ef16b3112b774af92a47794cf20a678227829"
       },
       "./src/botFramework/impl/index.ts": {
@@ -1806,10 +1806,8 @@
       "../../.npm-global/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
       "../../.npm-global/lib/node_modules/typescript/lib/lib.es2020.bigint.d.ts",
       "../../.npm-global/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts",
-      "./src/botFramework/types.ts",
       "./node_modules/log4js/types/log4js.d.ts",
       "./src/botFramework/logger.ts",
-      "./src/botFramework/interfaces.ts",
       "./node_modules/@types/node/globals.d.ts",
       "./node_modules/@types/node/assert.d.ts",
       "./node_modules/@types/node/async_hooks.d.ts",
@@ -1862,14 +1860,16 @@
       "./node_modules/@types/request/index.d.ts",
       "./node_modules/@types/node-telegram-bot-api/index.d.ts",
       "./node_modules/jsasserts/lib/Asserts.d.ts",
-      "./src/botFramework/impl/index.ts",
-      "./src/botFramework/index.ts",
       "./src/test/config.ts",
-      "./src/test/main.ts",
-      "./src/test/index.ts",
-      "./src/index.ts",
       "./types/fs.d.ts",
-      "./src/botFramework/impl/telegram.ts"
+      "./src/botFramework/types.ts",
+      "./src/test/main.ts",
+      "./src/botFramework/index.ts",
+      "./src/botFramework/impl/telegram.ts",
+      "./src/botFramework/interfaces.ts",
+      "./src/botFramework/impl/index.ts",
+      "./src/test/index.ts",
+      "./src/index.ts"
     ]
   },
   "version": "3.8.0-beta"
