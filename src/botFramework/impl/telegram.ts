@@ -33,7 +33,10 @@ export class TelegramBot extends Bot{
         Asserts.assertNotEmpty(this.bot, "Bot should be initialized");
         Asserts.assertNotEmpty(msg.text, "Text must present");
         await this.sendImage(msg);
-        let resultMessage = await this.bot!.sendMessage(msg.to, msg.text || "", {reply_markup: await this.processKeyboard(msg)});
+        let resultMessage = await this.bot!.sendMessage(msg.to, msg.text || "", {
+            reply_markup: await this.processKeyboard(msg),
+            parse_mode: "MarkdownV2"
+        });
         return resultMessage;
     }
     
