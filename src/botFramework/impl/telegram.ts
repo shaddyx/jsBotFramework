@@ -31,7 +31,7 @@ export class TelegramBot extends Bot{
     }
     async send(msg: OutboundMessage): Promise<any> {
         Asserts.assertNotEmpty(this.bot, "Bot should be initialized");
-        Asserts.assertNotEmpty(msg.text, "Text must present");
+        //Asserts.assertNotEmpty(msg.text, "Text must present");
         await this.sendImage(msg);
         if (msg.text){
             await this.bot!.sendMessage(msg.to, msg.text || "", {
