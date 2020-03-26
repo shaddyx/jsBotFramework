@@ -6,7 +6,7 @@ export interface InboundMessage {
     bot: Bot;
 }
 export interface OutboundMessage {
-    text: string | undefined;
+    text?: string | undefined;
     to: string | number;
     image?: Buffer | OutboundFile;
     keyboard?: Button[];
